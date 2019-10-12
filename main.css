@@ -1,0 +1,98 @@
+body{
+    background-color: #9ed2ec;
+    margin: 0;
+    padding: 0;
+}
+.mycanvas{
+    height: 510px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.snowman{
+    position: relative;
+    left: 5px;
+    top:53px;
+}
+.face{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 110px;
+
+}
+.eyel, .eyer{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+}
+.eyel{
+    top: 40px;
+    left: 35px;
+
+}
+.eyer{
+    top: 25px;
+    left:75px;
+}
+.nose{
+    height: 0;
+    width: 0;
+    border-top: 30px solid #f7880f;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    position: relative;
+    top: 35px;
+    left: 57px;
+}
+.hat{
+    background-color: #2b303a;
+    height: 10px;
+    width: 120px;
+    position: relative;
+    bottom: 50px;
+    left: 15px;
+    border-radius: 4px;
+    transform: rotate (20deg);
+}
+.hattop{
+    height: 0;
+    width: 60px;
+    border-bottom: 43px solid #2b303a;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: relative;
+    bottom: 42px;
+    left: 24px;
+}
+.body{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    top: 90px;
+    left: 70px;
+
+}
+.b1, .b2, .b3{
+    height: 15px;
+    width: 15px;
+    background-color: #2b303a;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.buttons{
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
